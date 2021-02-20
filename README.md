@@ -32,7 +32,7 @@ You can tweak the miner settings with five command-line arguments: `-I`, `-C`, `
 * -d allows you to pick which device to copmute on. Default is the first device
   (indexing from 0).
 * -P changes the port that the miner makes API calls to. Use this if you
-  configured Uplo to be on a port other than the default. Default is 9980.
+  configured Uplo to be on a port other than the default. Default is 8480.
 
 If you wanted to run the program on platform 0, device 1, with an intensity of
 24, you would call `./uplo-gpu-miner -d 1 -I 24`
